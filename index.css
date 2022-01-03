@@ -1,0 +1,51 @@
+.rotate {
+    animation: rotation 13s infinite linear;
+}
+  
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+.df45 {
+    width: min-content;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+
+
+body {
+    background-image: url(images/background-covid.jpg); 
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 961px;
+    position: relative;
+}
+
+.row > h2 {
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.cs34 li {
+    color: #8ded0e;
+    list-style-type: none;
+    font-size: 25px;
+}
+
+.cs34 span {
+    color: white;
+    padding-left: 6px;
+}
+
+.d-flex.justify-content-center {
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
